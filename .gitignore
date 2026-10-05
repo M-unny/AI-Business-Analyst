@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+# data & artefacts
+datasets/*
+!datasets/.gitkeep
+uploads/
+models/**/*.joblib
+models/**/*.pkl
+*.db
+*.sqlite3
